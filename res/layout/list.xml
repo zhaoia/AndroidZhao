@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/products_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <!-- search button and input edit text -->
+    <LinearLayout
+        android:id="@+id/psbox"
+        style="@style/search_box"
+        android:visibility="gone"
+        >
+        <EditText
+            android:id="@+id/input"
+            style="@style/main_edittext"
+            android:text="dell"
+            >
+            <requestFocus/>
+        </EditText>                  
+        <ImageButton
+            android:id="@+id/search"
+            style="@style/search_button"
+            />
+    </LinearLayout>
+    <!--end search button and input edit text -->
+    <LinearLayout style="@style/product_left">
+        <LinearLayout 
+            style="@style/productimg_box"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/container"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        >
+    </ListView>
+</LinearLayout>

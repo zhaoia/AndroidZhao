@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<color name="product_price">#000000</color>
+    <color name="product_shop">#003366</color>
+    <color name="product_comment">#003366</color>
+    <color name="normal">#104BA9</color>
+    <color name="popt">#FFFFFF</color>
+</resources>

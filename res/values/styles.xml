@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<style name="pop_image" parent="@android:style/Theme.Dialog">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowTitleStyle">@null</item>
+		<item name="android:windowFrame">@null</item>
+	</style>
+	<style name="detail" parent="@android:style/Theme.Dialog">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFrame">@null</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:windowTitleStyle">@null</item>
+	</style>
+	<style name="theme" parent="@android:style/Theme.NoTitleBar">
+		<item name="android:windowBackground">@drawable/bg</item>
+	</style>
+	<style name="search_box">
+        <item name="android:layout_width">320px</item>
+        <item name="android:layout_height">59px</item>
+        <item name="android:background">@drawable/zhaoia_searchbox</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">6px</item>
+        <item name="android:paddingBottom">7px</item>
+        <item name="android:paddingLeft">17px</item>
+        <item name="android:layout_marginTop">10px</item>
+    </style>
+    <style name="main_edittext">
+        <item name="android:layout_width">240px</item>
+        <item name="android:layout_height">39px</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">5px</item>
+        <item name="android:paddingTop">6px</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">50</item>
+    </style>
+    <style name="search_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/search_icon</item>
+        <item name="android:layout_marginLeft">10px</item>
+        <item name="android:layout_marginTop">3px</item>
+    </style>
+    <style name="product_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">51px</item>
+        <item name="android:textColor">@color/normal</item>
+    </style>
+    <style name="product_image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+     <style name="product">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="product_price">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">90px</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13px</item>
+        <item name="android:textColor">@color/product_price</item>
+    </style>
+    <style name="product_comment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12px</item>
+        <item name="android:textColor">@color/product_comment</item>
+    </style>
+    <style name="shop_price">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="product_shop">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13px</item>
+        <item name="android:textColor">@color/product_shop</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="product_left">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/productleft</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingLeft">17px</item>
+    </style>
+    <style name="product_right">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/productright</item>
+        <item name="android:paddingRight">17px</item>
+    </style>
+        <style name="product_center">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">137px</item>
+        <item name="android:background">@drawable/productcenter</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">13px</item>
+        <item name="android:paddingBottom">13px</item>
+    </style>
+    <style name="white_box_xleft">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">5px</item>
+        <item name="android:background">@drawable/whiteleft</item>
+    </style>
+    <style name="white_box_xright">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">5px</item>
+        <item name="android:background">@drawable/whiteright</item>
+    </style>
+    <style name="white_box_xcenter">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">110px</item>
+        <item name="android:paddingTop">5px</item>
+        <item name="android:paddingBottom">5px</item>
+        <item name="android:background">@drawable/whitexcenter</item>
+    </style>
+    <style name="white_box_top">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">5px</item>
+        <item name="android:background">@drawable/whitetop</item>
+    </style>
+    <style name="white_box_bottom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">5px</item>
+        <item name="android:background">@drawable/whitebottom</item>
+    </style>
+    <style name="white_box_ycenter">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">5px</item>
+        <item name="android:paddingRight">5px</item>
+        <item name="android:background">@drawable/whiteycenter</item>
+    </style>
+    <style name="productimg_box">
+        <item name="android:layout_width">110px</item>
+        <item name="android:layout_height">110px</item>
+        <item name="android:padding">5px</item>
+        <item name="android:background">@drawable/product_img</item>
+    </style>
+    <style name="main_bgtop">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">17px</item>
+        <item name="android:background">@drawable/bgtop</item>
+    </style>
+    <style name="main_bgbottom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">17px</item>
+        <item name="android:background">@drawable/bgbottom</item>
+    </style>
+        <style name="main_bgcenter">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/bgcenter</item>
+        <item name="android:paddingLeft">17px</item>
+        <item name="android:paddingRight">17px</item>
+    </style>
+</resources>

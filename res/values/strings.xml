@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zhaoia</string>
+    <string name="site">www.zhaoia.com</string>
+    <string name="nullk">Input nothing!</string>
+    <string name="notification_t">找呀-麦图购物搜索</string>
+    <string name="notify_et"></string>
+    <string name="dialog_title">请稍等...</string>
+    <string name="dialog_content">正在查询...</string>
+    <string name="input_hint">请输入要搜索的关键字</string>
+    <string name="help">请在白色输入框中输入要搜索的关键字，点击红色搜索按钮即可。或者在屏幕上向右滑动一段距离...</string>
+</resources>

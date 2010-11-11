@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"		
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:orientation="vertical"		
+		android:paddingTop="10px"
+		android:paddingBottom="10px"
+		android:paddingLeft="10px"
+		android:paddingRight="10px"
+		>
+		<ImageView
+			android:id="@+id/popi"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="3px"
+			/>
+		<TextView
+			android:id="@+id/popt"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="3px"
+			android:textSize="16px"
+			android:textColor="@color/popt"
+			android:gravity="center"
+			/>
+</LinearLayout>

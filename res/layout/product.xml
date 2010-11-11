@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/product_left">
+    <LinearLayout style="@style/product_right">
+        <LinearLayout style="@style/product_center">
+            <LinearLayout style="@style/productimg_box">
+                <ImageView android:id="@+id/simage" style="@style/product_image" />
+            </LinearLayout>
+            <LinearLayout style="@style/white_box_xleft"
+                android:layout_marginLeft="7px">
+                <LinearLayout style="@style/white_box_xright">
+                    <LinearLayout style="@style/white_box_xcenter"
+                        android:orientation="vertical">
+                        <TextView android:id="@+id/stitle" style="@style/product_title" />
+                        <LinearLayout style="@style/shop_price">
+                            <TextView android:id="@+id/sprice" style="@style/product_price" />
+                            <TextView android:id="@+id/sshop" style="@style/product_shop" />
+                        </LinearLayout>
+                        <TextView android:id="@+id/scomment" style="@style/product_comment" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

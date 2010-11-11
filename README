@@ -1,0 +1,41 @@
+== 欢迎使用找呀搜索及Android客户端工具
+   Zhaoia API 提供B2C/C2C商城商品查询接口.
+   本程序演示了如何在Android手机应用中调用Zhaoia API
+
+
+== Getting Started
+
+   平台需求:
+   1, Java 1.6(Linux/Mac/Windows)
+   2, Eclipse helios 
+      ( 32-bit http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/SR1/eclipse-java-helios-SR1-linux-gtk.tar.gz )
+   3, Android SDK 2.1/2.2 
+      ( http://androidappdocs-staging.appspot.com/sdk/index.html )
+
+   编译源码:
+
+   1, git clone git://github.com/zhaoia/AndroidZhao.git
+   2, 配置Android 开发环境，参考
+      http://androidappdocs-staging.appspot.com/sdk/installing.html
+
+== Zhaoia API 使用
+
+   1,写邮件到 api@hellom2.com 以获取AppKey和SecretCode
+   2,参照 src/com/zhaoia/Const.java ,设置AppKey和SecretCode
+
+      15     // mail to api@hellom2.com to ask for appkey secretcode
+      16     //
+      17     static final public String AppKey = "your AppKey";
+      18     static final public String SecretCode = "your SecretCode";
+      19     //
+      20     //
+
+   3,编译并运行，即可通过Android客户端进行商品查询
+
+   Zhaoia API 详细使用说明请参考:
+   http://www.zhaoia.com/api
+
+== 其它
+
+本程序仅供Zhaoia API 演示和参考使用。
+版权所有 麦图科技 2010
